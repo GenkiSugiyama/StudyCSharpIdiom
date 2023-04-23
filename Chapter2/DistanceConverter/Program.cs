@@ -13,32 +13,32 @@ namespace DistanceConverter
             //プログラム実行時にコマンドライン引数を受け取って処理を分岐させる
             if (args.Length >= 1 && args[0] == "-tom")
             {
-                for (int ft = 1; ft <= 10; ft++)
-                {
-                    double meter = FeetToMeter(ft);
-                    Console.WriteLine($"{ft} ft = {meter:0.0000} m");
-                }
+                PrintFeetToMeterList(1, 10);
             }
             else
             {
-                for (int meter = 1; meter <= 10; meter++)
-                {
-                    double ft = MeterToFeet(meter);
-                    Console.WriteLine($"{meter} m = {ft:0.0000} ft");
-                }
+                PrintMeterToFeetList(1, 15);
             }
 
         }
 
-        //計算ロジックを独立させる
-        static double FeetToMeter(int feet)
+        //Main関数内メソッドを独立させる
+        static void PrintFeetToMeterList(int start, int stop)
         {
-            return feet * 0.3048;
+            for (int ft = start; ft <= stop; ft++)
+            {
+                double meter = FeetConverter.ToMeter(ft);
+                Console.WriteLine($"{ft} ft = {meter:0.0000} m");
+            }
         }
 
-        static double MeterToFeet(int meter)
+        static void PrintMeterToFeetList(int start, int stop)
         {
-            return meter / 0.3048;
+            for (int meter = start; meter <= stop; meter++)
+            {
+                double ft = FeetConverter.FromMeter(meter);
+                Console.WriteLine($"{meter} m = {ft:0.0000} ft");
+            }
         }
     }
 }
