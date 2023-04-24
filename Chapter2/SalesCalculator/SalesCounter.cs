@@ -34,6 +34,24 @@ namespace SalesCalculator
             return dict;
         }
 
+        public IDictionary<string, int> GetPerCategorySales()
+        {
+            var dict = new Dictionary<string, int>();
+            foreach (var sale in _sales)
+            {
+                if (dict.ContainsKey(sale.ProductCategory))
+                {
+                    dict[sale.ProductCategory] += sale.Amount;
+                }
+                else
+                {
+                    dict[sale.ProductCategory] = sale.Amount;
+                }
+            }
+
+            return dict;
+        }
+
         private static IEnumerable<Sale> ReadSales(string filePath)
         {
             var sales = new List<Sale>();
