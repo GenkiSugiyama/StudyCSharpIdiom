@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudyCSharpIdiom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3a57afcee58c4f11913063a2907a32315f201dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudyCSharpIdiom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudyCSharpIdiom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

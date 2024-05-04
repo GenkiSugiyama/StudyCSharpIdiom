@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice", "Chapter2\Practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeLamda", "Chapter3\PracticeLamda\PracticeLamda.csproj", "{64D87D81-E88D-4259-93B6-07A4BA6AE4EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeArrayAndList", "PracticeArrayAndList\PracticeArrayAndList.csproj", "{74F99DDE-141C-4A24-B9A1-D4C98ED3D6E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{64D87D81-E88D-4259-93B6-07A4BA6AE4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D87D81-E88D-4259-93B6-07A4BA6AE4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D87D81-E88D-4259-93B6-07A4BA6AE4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F99DDE-141C-4A24-B9A1-D4C98ED3D6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F99DDE-141C-4A24-B9A1-D4C98ED3D6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F99DDE-141C-4A24-B9A1-D4C98ED3D6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F99DDE-141C-4A24-B9A1-D4C98ED3D6E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
